@@ -1,3 +1,4 @@
+
 n=input("Enter a list of integers:")
 numberlist=n.split()
 result=[]
