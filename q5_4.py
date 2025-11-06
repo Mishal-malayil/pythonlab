@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def add_numbers(*args):
     """
     Function Name: add_numbers
@@ -20,3 +21,13 @@ print("Sum of numbers:", add_numbers(1, 2, 3, 4, 5, 6))
 
 print("\nFunction Documentation:")
 print(add_numbers.__doc__)
+=======
+def add(*n):
+    """Adds all given numbers."""
+    return sum(n)
+
+nums = input("Enter numbers separated by space: ").split()
+nums = [int(x) for x in nums]
+
+print("Sum =", add(*nums))
+>>>>>>> refs/remotes/origin/master
